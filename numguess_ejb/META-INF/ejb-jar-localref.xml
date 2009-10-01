@@ -1,0 +1,11 @@
+        <!--
+          This ejb-local-ref is required to allow the GameLogic
+          access to the BestScore bean.
+        -->
+        <ejb-local-ref>
+          <ejb-ref-name>ejb/NumguessBestScore</ejb-ref-name>
+          <ejb-ref-type>Entity</ejb-ref-type>
+          <local-home>numguess.ejb.BestScoreLocalHome</local-home>
+          <local>numguess.ejb.BestScoreLocal</local>
+          <ejb-link>BestScore</ejb-link>
+        </ejb-local-ref>

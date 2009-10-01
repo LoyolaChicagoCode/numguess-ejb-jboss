@@ -1,0 +1,16 @@
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi">
+
+   <RDBSchema:RDBDatabase xmi:id="RDBDatabase_1" name="TopDownDB" tableGroup="RDBTable_1 RDBTable_2">
+      <dataTypeSet href="UDBV7_Primitives.xmi#SQLPrimitives_1"/>
+   </RDBSchema:RDBDatabase>
+
+   <RDBSchema:RDBTable xmi:id="RDBTable_BestScore" name="" primaryKey="BestScore_PRIMARYKEY" database="RDBDatabase_1">
+      <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="BestScore_PRIMARYKEY" members="------RDBColumn_1" table="RDBTable_BestScore" constraint="Constraint_BestScore_"/>
+
+      <columns xmi:id="BestScore_name" name="name">
+      </columns>
+      <columns xmi:id="BestScore_score" name="score">
+      </columns>
+
+   </RDBSchema:RDBTable>
+</xmi:XMI>

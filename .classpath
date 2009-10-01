@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="JBOSS323/server/default/lib/jboss-j2ee.jar"/>
+	<classpathentry kind="lib" path="numguess_web/WEB-INF/lib/struts.jar"/>
+	<classpathentry kind="var" path="JBOSS323/server/default/lib/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="numguess_web/WEB-INF/lib/commons-validator.jar"/>
+	<classpathentry kind="lib" path="numguess_web/WEB-INF/lib/commons-beanutils.jar"/>
+	<classpathentry kind="src" path="ejbsrc"/>
+	<classpathentry kind="var" path="JBOSS323/bin/run.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

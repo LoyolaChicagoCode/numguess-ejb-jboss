@@ -1,0 +1,4 @@
+#Links ear modules to project module- DO NOT EDIT MANUALLY
+#Sat Mar 06 16:43:27 CST 2004
+numguess-ejb.jar=numguess_ejb
+numguess-web.war=numguess_web

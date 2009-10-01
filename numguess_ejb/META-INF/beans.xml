@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="MacRoman"?>
+<beangroup>
+  <bean>
+    <beanClass>numguess.ejb.RangeBean</beanClass>
+    <type>Session</type>
+  </bean>
+  <bean>
+    <beanClass>numguess.ejb.GameLogicBean</beanClass>
+    <type>Session</type>
+  </bean>
+  <bean>
+    <beanClass>numguess.ejb.BestScoreBean</beanClass>
+    <type>Entity</type>
+  </bean>
+</beangroup>
